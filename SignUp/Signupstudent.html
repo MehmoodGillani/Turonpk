@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turonpk/signup/Student</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div id="wrapper" class="container">
+        <div id="header">
+            <div id="logo">
+                <h1> <a href="../index.html">Turonpk.com<sup style="font-size: 16px;">&reg;</sup>
+                        <p style="font-size: 11px;">Best Tutors provider</p>
+                    </a></h1>
+
+            </div>
+            <div id="menu">
+                <h1>SignUp<sub>(Student)</sub></h1>
+            </div>
+        </div>
+        <hr>
+
+        <div class="pannel">
+            <h2>Sign Up</h2>
+            <form action="">
+                <div class="form-item-username">
+                    <input required type="text" name="firstName" id="firstName" placeholder="First Name">
+                    <input required type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+
+                <div class="form-item">
+                    <input required type="email" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div class="form-item">
+                    <span class="pwd-format">
+                    </span>
+                    <input required type="password" name="password" id="password" placeholder="Enter password">
+                    <input required type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
+                </div>
+
+                <div class="form-item">
+                    <input class="form-control" type="text" name="NIC" id="NIC" required onkeyup="validateNIC();"
+                        maxlength=13 placeholder="CNIC"/>
+                    <span id="message1">Enter NIC Number without "-"</span>
+
+                </div>
+
+
+                <div class="accept-box">
+                    <input required type="checkbox" name="accept" id="accept">
+                    <p>I accept the <a href="#">Terms & Conditions</a></p>
+                </div>
+
+                <div class="form-btns">
+                    <button class="signup" type="submit">Sign Up</button>
+                    <div class="options">
+                        Already have an account? <a href="../login/StudentLogin.html">Login here</a>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+        <hr>
+        <footer>
+            <div id="footer">
+                <h3>Contact Detatils</h3>
+                <address>Contact helpdesk <a href="mailto:mehgillani5373@gamil.com">Email</a>
+                </address>
+                <a href="">facebook</a><br>
+                <a href="">twitter</a><br>
+                <a href=""></a>
+                <address>abc block 123 street abc123 karachi pakistan</address>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
