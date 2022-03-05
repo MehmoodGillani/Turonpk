@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url('../9-css/fonts/Ubuntu-Regular.ttf');
+}
+*{
+    font-family: Ubuntu;
+}
+
+
+h2 {
+	padding-bottom: 30px;
+	letter-spacing: -2px;
+	font-size: 2em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+
+
+a {
+	color: #39C2F0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: autopx;
+	padding: 0px 50px;
+	background: #FFFFFF;
+        
+}
+
+.container {
+	width: autopx;
+	margin: 0px auto;
+}
+
+
+/** HEADER */
+
+#header {
+	overflow: hidden;
+	padding: 30px 0px;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+}
+#logo h1 a{
+    /* font-size: 3em; */
+    color: blue;
+    text-decoration: none;
+}
+
+#logo h1 {
+	
+	font-size: 3em;
+    color: blue;
+}
+#logo h1 p{
+	color: blue;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+/** MENU */
+
+#menu {
+	float: right;
+	width: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+#menu h1{
+    font-size: 35px;
+    color: blueviolet;
+    float: right;
+
+}
+#menu h1 sub{
+ font-size: 20px;
+}
+
+#menu .current_page_item a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	background: #2AA8D2;
+	border-radius: 5px;
+}
+::placeholder {
+    color: #585858;
+    
+}
+
+
+/* signup form */
+
+.pannel {
+    align-content: center;
+    background: #384246;
+    display: inline-block;
+    align-items: center;
+    margin: 100 auto;
+    height: 1300;
+    width: 100%;
+    border-radius: 10px;
+}
+.pannel h1 { 
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 5px;
+
+}
+form {
+    display: inline-block;
+    align-items: center;
+}
+.outer{
+    display: inline-block;
+    margin: 10px 50px;
+
+    /* float: left; */
+}
+.inner{
+    display: block;
+}
+
+.inner input{
+    padding: 5px;
+    width: 450px;
+    font-size: 18px;
+    height: 35px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+.inner label{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.inner select{
+    padding: 5px;
+    width: 450px;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 10px;
+}
+.field{
+    border-radius: 1px;
+    background-color: #FFFFFF;
+     padding: 5px;
+    width: 450px;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 10px;
+
+}
+/* profile picture */
+.outer p,span{
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.terms{
+    margin: 0px;
+}
+.profilepic-btn{
+    width: 173px;
+    border: 1px; 
+    border-radius: 5px; 
+    padding: 5px; 
+    background-color: white;
+}
+.profilepic-btn:hover{
+    background: #585858;
+    color: #FFFFFF;
+}
+
+
+.accept-box {
+    
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+a {
+    color: #39C2F0;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.form-btns {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.form-btns button {
+    margin: auto;
+    font-size: 20px;
+    padding: 8px;
+    width: 100px;
+    flex: right;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.form-btns button:disabled {
+    cursor: pointer;
+    background: rgb(255, 255, 255) ;
+    color: #585858;
+    
+}
+
+.form-btns button:hover {
+    background: #585858;
+    color: #FFFFFF;
+}
+
+.options {
+    padding-top: 15px;
+    margin: auto;
+    font-size: 13px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.container #footer{
+background-color: rgb(31, 29, 29);
+color: white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 11pt;
+}
+.container #footer a{
+	text-decoration: none;
+}
+footer{
+    width:100%;
+    margin:5px auto;
+    border: 3px solid transparent;border-radius: 30px;	
+}
+@media screen and (max-width: 600px) {
+    .outer,.inner,.field,.container,.input,.terms,.rules
+    {
+        width: 100%;
+        display:block
+    }
+}
