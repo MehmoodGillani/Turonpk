@@ -150,6 +150,88 @@ img.aligncenter {
 	background: #2AA8D2;
 	border-radius: 5px;
 }
+/* page content */
+.pannel{
+	width: 1100px;
+	height: 1200px;
+	background-color:rgba(56, 66, 70, 1);
+	border-radius: 30px;
+	margin: 50px, 40px;
+	display: inline-block;
+	flex-wrap: wrap;
+}
+.grade{
+	width: 420px;
+	height: 260px;
+	margin: 10px 50px;
+	display: inline-block;
+}
+.subject-pannel{
+	width: 400px;
+	height: auto;
+	background-color: rgba(57, 194, 240, 1);
+	border-radius: 20px;
+	padding: 20px;
+	display: inline-block;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.text{
+	color: #FFFFFF;
+	text-align: center ;
+	font-size: 24px;
+}
+
+label{
+	color: #FFFFFF;
+	border: 1px;
+	border-radius: 5px;
+	padding: 5px;
+	width: 124px;
+	height: 44px;
+	font-size: 20px;
+	background-color: rgba(57, 194, 240, 1);
+	margin-bottom: 10px;
+    
+}
+.subject{
+	color: rgba(57, 194, 240, 1);
+	border: 1px;
+	border-radius: 5px;
+	padding: 5px;
+	width: 105px;
+	height: 25px;
+	font-size: 16px;
+	background-color: #FFFFFF;
+	margin: 10px 7px;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+}
+.subject a{
+text-decoration: none;
+padding: 5px;
+text-align: center;
+}
+.test-prep{
+	align-items: center;
+	text-align: center;
+	display: block;
+	flex-wrap: nowrap;
+	margin-top: 100px;
+}
+.test-pannel{
+	display: block;
+	width: 80%;
+	justify-content: center;
+	height: auto;
+	background-color: rgba(57, 194, 240, 1);
+	border-radius: 20px;
+	padding: 20px;
+	display: inline-block;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
 #totop{
 	
 	text-align: center;
